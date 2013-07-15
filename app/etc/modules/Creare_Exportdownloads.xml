@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+<modules>
+   <Creare_Exportdownloads>
+      <active>true</active>
+      <codePool>local</codePool>
+      <version>1.0</version>
+   </Creare_Exportdownloads>
+</modules>
+</config>

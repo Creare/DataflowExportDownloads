@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Creare_Exportdownloads>
+      <version>0.1.0</version>
+    </Creare_Exportdownloads>
+  </modules>
+  <admin>
+    <routers>
+      <adminhtml>
+        <args>
+          <modules>
+            <exportdownloads before="Mage_Adminhtml">Creare_Exportdownloads_Adminhtml</exportdownloads>
+          </modules>
+        </args>
+      </adminhtml>
+    </routers>
+  </admin>
+  <global>
+    <blocks>
+      <exportdownloads>
+        <class>Creare_Exportdownloads_Block</class>
+      </exportdownloads>
+    </blocks>
+    <helpers>
+      <exportdownloads>
+        <class>Creare_Exportdownloads_Helper</class>
+      </exportdownloads>
+    </helpers>
+    <models>
+      <exportdownloads>
+        <class>Creare_Exportdownloads_Model</class>
+      </exportdownloads>
+    </models>
+  </global>
+</config>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<layout>
+  <default>
+    <reference name="head">
+      <action method="addCss">
+        <stylesheet>css/eucookielaw.css</stylesheet>
+      </action>
+      <action method="addItem">
+        <type>skin_js</type>
+        <name>js/eucookielaw.js</name>
+        <params/>
+      </action>
+      <block type="core/template" template="eucookielaw/js.phtml" />
+    </reference>
+  </default>
+</layout>

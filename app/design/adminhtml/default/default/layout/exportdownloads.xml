@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<layout>
+  <!--<exportdownloads_index_index>
+    <reference name="content">
+      <block type="exportdownloads/files" name="exportdownloads" template="exportdownloads/files.phtml"/>
+    </reference>
+  </exportdownloads_index_index>-->
+  <adminhtml_exportdownloads_index>
+    <reference name="content">
+      <block type="exportdownloads/adminhtml_exportdownloads" name="exportdownloads"/>
+    </reference>
+  </adminhtml_exportdownloads_index>
+</layout>
