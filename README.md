@@ -6,3 +6,4 @@
 
 <h3>Developer Details</h3>
 <p>Module written by Adam Moss (<a href="https://twitter.com/adampmoss">@adampmoss</a>)</p>
+<p>Also available on Magento Connect: <a href="http://www.magentocommerce.com/magento-connect/creare-dataflow-export-downloads.html">Creare Dataflow Export Downloads</a></p>
