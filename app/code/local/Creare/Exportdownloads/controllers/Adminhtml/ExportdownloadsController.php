@@ -40,7 +40,9 @@ class Creare_Exportdownloads_Adminhtml_ExportdownloadsController extends Mage_Ad
 			
 			header('Content-disposition: attachment; filename='.$file);
 			header('Content-type: text/csv');
+			header('Content-type: application/ms-excel');
 			readfile(Mage::getBaseDir('export') . DS . $file);
+			exit;
 			
 		} else {
 		
